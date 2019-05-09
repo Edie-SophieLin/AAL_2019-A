@@ -41,7 +41,7 @@ El script de la base de datos se encuentra dentro de la carpeta DataBase
 
 Para utilizar la base de datos se recomeinta seguir los siguientes pasos:
 1. Abrir el siguiente enlace: 
-https://localhost/myphpadmin
+https://localhost/phpmyadmin/
 
 2. Ingresar con el usuario y la contraseña 
 si aun no se ha configurado las credenciales son las siguientes:

@@ -43,7 +43,7 @@ INSERT INTO `catalogooa` (`idCatalogoOA`, `materia`, `cantidad`) VALUES
 (2, 'Literatura', 1),
 (3, 'Medicina', 1),
 (4, 'Ciencias Sociales', 0),
-(5, 'Ciencias Sociales', 0),
+(5, 'Ciencias Exactas', 0),
 (6, 'Ciencias Naturales', 0),
 (7, 'Inteligencia Artificial', 0),
 (8, 'Computacion', 0);
@@ -128,9 +128,9 @@ CREATE TABLE `estudiante` (
 --
 
 INSERT INTO `estudiante` (`idestudiante`, `ci`, `nombres`, `apellidos`, `carrera`, `id_facultad`, `mail`, `id_usuario`, `ruta_imagen`) VALUES
-(1, '1714296603', 'Karina', 'Tapia', 'Sistemas', 8, 'alexisalex31@hotmail.com', 2, NULL),
-(4, '1712138393', 'Nancy', 'Simbana', 'FIS', 8, 'nancy.simbana@gmail.com', 14, '../../imagenes/perfil.jpg'),
-(5, '1718010653', 'Caro', 'Cevallos', 'FIS', 4, 'carito_kt@hotmail.com', 17, '../../imagenes/caro.jpg');
+(1, '1714296603', 'Katherine', 'Quinatoa', 'FIEE', 4, 'liz_kat.2407@hotmail.com', 2, '../../imagenes/perfil.jpg'),
+(4, '1722138393', 'Edison', 'Pinduisaca', 'FIS', 8, 'eddymir4ever@gmail.com', 14, NULL),
+(5, '1708010653', 'Ricardo', 'Moya', 'FIS', 8, 'ricardo_moya@gmail.com', 17, NULL);
 
 -- --------------------------------------------------------
 
@@ -182,14 +182,14 @@ CREATE TABLE `foro` (
 --
 
 INSERT INTO `foro` (`ID`, `autor`, `titulo`, `mensaje`, `fecha`, `respuestas`, `identificador`, `ult_respuesta`, `user_id`) VALUES
-(1, 'sergio', 'hola', 'bien todo bien', '2005-01-19', 5, 0, '2005-01-19', NULL),
-(2, 'tu', 'mmv', 'nada bien', '2005-01-19', 0, 1, '2005-01-19', NULL),
-(3, 'caro', 'hola', '23345678978765433', '2005-01-19', 0, 1, '2005-01-19', 0),
-(4, 'caroce', 'wlady', 'qwertryutiolkjjhgfdsa', '2005-01-19', 0, 1, '2005-01-19', 0),
-(5, 'caroce', '234565789', 'sdfghjkl&ntilde;', '2005-01-19', 0, 1, '2005-01-19', NULL),
-(6, 'caroce', '123', 'hola q ace', '2005-01-19', 2, 0, '2005-01-19', NULL),
-(7, 'caroce', 'yo mismo', 'hola', '2005-01-19', 0, 6, '2005-01-19', NULL),
-(8, 'caroce', 'hola', '12324435675', '2005-01-19', 0, 6, '2005-01-19', NULL);
+(1, 'edison', 'hola', 'bien todo bien', '2005-01-19', 5, 0, '2005-01-19', NULL),
+(2, 'ricardo', 'mmm', 'nada bien', '2005-01-19', 0, 1, '2005-01-19', NULL),
+(3, 'ricardo', 'hola', '23345678978765433', '2005-01-19', 0, 1, '2005-01-19', 0),
+(4, 'edison', 'wlady', 'qwertryutiolkjjhgfdsa', '2005-01-19', 0, 1, '2005-01-19', 0),
+(5, 'edison', '234565789', 'sdfghjkl&ntilde;', '2005-01-19', 0, 1, '2005-01-19', NULL),
+(6, 'edison', '123', 'hola q ace', '2005-01-19', 2, 0, '2005-01-19', NULL),
+(7, 'ricardo', 'yo mismo', 'hola', '2005-01-19', 0, 6, '2005-01-19', NULL),
+(8, 'edison', 'hola', '12324435675', '2005-01-19', 0, 6, '2005-01-19', NULL);
 
 -- --------------------------------------------------------
 
@@ -354,8 +354,8 @@ INSERT INTO `profesor` (`idprofesor`, `ci`, `nombres`, `apellidos`, `id_departam
 (1, '1725790032', 'Alexis', 'Maldonado', 11, 2, 'alexis.maldonado@epn.edu.ec', 4, NULL),
 (2, '1725790032', 'Fernando', 'Tapia', 7, 6, 'alexisalex31@hotmail.com', 5, NULL),
 (3, '0802548578', 'Maria', 'Intriago', 17, 8, 'monserrate.intriago@epn.edu.ec', 9, NULL),
-(4, '1718010653', 'Nancy', 'Cevallos', 8, 8, 'carito_kt@hotmail.com', 11, NULL),
-(6, '1724171549', 'Sergio', 'Villacres', 8, 8, 'sergiovillacres3@gmail.com', 16, '../../imagenes/pr.jpg');
+(4, '1718010653', 'Ricardo', 'Moya', 8, 8, 'ricardo.moya@pn.edu.ec', 17, NULL),
+(6, '1724171549', 'Edison', 'Pinduisaca', 8, 8, 'edison.pinduisaca@epn.edu.ec', 16, '../../imagenes/pr.jpg');
 
 -- --------------------------------------------------------
 
@@ -377,20 +377,20 @@ CREATE TABLE `usuario` (
 
 INSERT INTO `usuario` (`idUsuario`, `usuario`, `contrasenia`, `tipo_usuario`, `activo`) VALUES
 (1, 'admin', 'admin', 'ADM', 'V'),
-(2, 'ktapia', 'hola123', 'EST', 'V'),
-(4, 'AlexisMaldonado0', 'alexis', 'PRO', 'V'),
-(5, 'FernandoTapia0', 'bESn9', 'PRO', 'F'),
-(6, 'mmjaramilloarteaga', 'mmjaramilloarteaga', 'EST', 'V'),
+(2, 'edison', 'hola123', 'EST', 'V'),
+(4, 'ricardo', '123456', 'EST', 'V'),
+(5, 'katherine', 'KaThY123', 'PRO', 'V'),
+(6, 'lizbeth', 'lizz123', 'EST', 'V'),
 (7, 'mmjaramillo', 'mmjaramillo', 'EST', 'V'),
 (8, 'mmjaramillo', '123', 'EST', 'V'),
-(9, 'MariaIntriago0', 'gcjFI', 'PRO', 'V'),
+(9, 'Maria', 'gcjFI', 'PRO', 'V'),
 (10, 'caro', '1234', 'EST', 'V'),
-(11, 'NancyCevallos0', '4TYWM', 'PRO', 'F'),
+(11, 'Juan', '4TYWM', 'PRO', 'F'),
 (12, 'nnc', 'nnc', 'EST', 'V'),
-(13, 'serg', 'serg', 'EST', 'V'),
-(14, 'Nancy Simbana', '1234', 'EST', 'V'),
-(16, 'SergioVillacres0', 'zkxGa', 'PRO', 'V'),
-(17, 'caroce', '1234', 'EST', 'V');
+(13, 'criss', 'criss', 'EST', 'V'),
+(14, 'edisonP', '123456', 'EST', 'V'),
+(16, 'edisonPinduisaca', 'zkxGa', 'PRO', 'V'),
+(17, 'ricardoMoya', '1234', 'EST', 'V');
 
 -- --------------------------------------------------------
 
