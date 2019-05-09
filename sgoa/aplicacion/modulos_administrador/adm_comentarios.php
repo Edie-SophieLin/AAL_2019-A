@@ -299,7 +299,7 @@ $objeto_de_aprendizaje = obtener_oa_como_arreglo($id_objeto_aprendizaje);
 
 
 <footer class="label-default container-fluid text-center">
-    <p class="copyright small">Copyright &copy; Jaime Crespin, Jossué Dután, Alexis Maldonado 2018</p>
+    <p class="copyright small">Copyright &copy; Jaime Crespin, Jossué Dután, Alexis Maldonado, Edison Pinduisaca 2019</p>
 </footer>
 </body>
 

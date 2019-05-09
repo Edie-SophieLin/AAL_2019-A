@@ -168,7 +168,7 @@
                     <li class="footer-menu-divider">&sdot;</li>
                     <li><a href="#contact">Contacto</a></li>
                 </ul>-->
-                <p class="copyright text-muted small">Copyright &copy; Alex Ulloa,  Miguel Alvarez, Jossué Dután, Alexis Maldonado 2018, 2018</p>
+                <p class="copyright text-muted small">Copyright &copy;  Miguel Alvarez, Jossué Dután, Alexis Maldonado, Edison Pinduisaca, Alex Ulloa 2019, 2018</p>
             </div>
         </div>
     </div>
