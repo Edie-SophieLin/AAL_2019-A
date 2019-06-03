@@ -16,10 +16,52 @@ body, h1, h2, h3, h4, h5, h6 {
 .intro-header {
 	padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
 	padding-bottom: 50px;
-	color: #f8f8f8;
-	background: url(../../../images/intro-bg.jpg) no-repeat center center;
+	color: #ffffff;
+	background: url(../../../imagenes/fis_01.jpg) no-repeat center center;
 	background-size: cover;
 	text-align: center;
+}
+
+.blockF {
+    background-color: rgba(94, 65, 224, 0.418);
+    margin-bottom: 1em;
+    padding: 1em;
+    border-radius: 4px;
+}
+.blockW {
+    background-color: rgba(72, 240, 108, 0.418);
+    margin-bottom: 1em;
+    padding: 1em;
+    border-radius: 4px;
+}
+
+.infoContent{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	text-align: center;
+}
+
+.infoContent .block {
+	font-family: 'Signika Negative', sans-serif;
+	font-size: 25px;
+	margin: 5px 0 10px 0;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+
+.infoContent .block h3 a {
+	color: #ffffff;
+	text-shadow: 2px 2px 3px black;
+}
+
+/* .infoContent .block{
+	padding: 8px;
+	width: 100%;
+} */
+
+.infoContent .block .icon-social{
+	font-size: 45px;
 }
 
 .intro-message {
@@ -31,7 +73,7 @@ body, h1, h2, h3, h4, h5, h6 {
 .intro-message > h1 {
 	margin: 0;
 	font-size: 5em;
-	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+	text-shadow: 5px 5px 5px rgba(0, 0, 0.5, 3.6);
 }
 
 .intro-divider {
@@ -41,7 +83,7 @@ body, h1, h2, h3, h4, h5, h6 {
 }
 
 .intro-message > h3 {
-	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+	text-shadow: 5px 5px 5px rgba(0, 0, 0, 3.6);
 }
 
 @media (max-width: 767px) {
@@ -99,7 +141,7 @@ body, h1, h2, h3, h4, h5, h6 {
 .banner {
 	padding: 100px 0;
 	color: #f8f8f8;
-	background: url(../../../images/banner-bg.jpg) no-repeat center center;
+	background: url(../../../imagenes/teatro.jpg) no-repeat center center;
 	background-size: cover;
 }
 

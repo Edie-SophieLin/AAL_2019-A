@@ -6,11 +6,11 @@
 <link rel="stylesheet" href="sgoa/plugins/bootstrap/css/bootstrap.min.css"></link>
 <link rel="stylesheet" type="text/css" href="sgoa/estilos/style.css"></link>
 
-<title>Proyecto SGOA</title>
+<title>Proyecto CDAC</title>
 </head>
 <body>
 <form action="sgoa/aplicacion/validar.php" method="post">
-<h2 style="color: #004e91; font-size: 250%;">Objetos de Aprendizaje</h2>
+<h2 style="color: #004e91; font-size: 250%;">Centro de Aprendizaje</h2>
 <br>
 <select class= "form-control" name="tipo_usuario" dir="ltr" required>
 <option value="">Tipo de Usuario</option>
@@ -32,12 +32,5 @@
 </button>
 <h2 style = "color: #004e91; font-size: 80%"; align="right"> ¿Olvidó su contraseña? </h2>
 </form>
-<form method="post">
-<h2 style="color: #004e91; font-size: 250%;">Regístrate</h2>
-<td width="50%"> <a href="sgoa/aplicacion/formularios_registro/RegistrarProfesor.php"> Registrar Profesor</a></td></br>
-<label></label>
-<td width="50%" align="right" valign="middle"><a href="sgoa/aplicacion/formularios_registro/RegistrarEstudiante.php"> Registrar Estudiante</a></td>
-</form>
 </body>
 </html>
-
